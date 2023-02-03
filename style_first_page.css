@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    background-color: white; 
+}
+.top_canvas{
+    height: 800px;
+    display: flex;
+}
+.black{
+    margin: 0;
+    height: 800px;
+    width: 450px;
+    background-color: black;
+}
+.h{
+    height: 176px;
+    width: 514px;
+    margin-left: 165px;
+    margin-top: 189px;
+
+    
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 88px;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    background: linear-gradient(to right, rgb(255 255 255) 0%, #ffffff 55%, rgba(0 0 0)5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p{
+    height: 160px;
+    width: 350px;
+    left: 925px;
+    top: 190px;
+   
+    font-family: 'Outfit',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    color: #444444;
+}  
+.location{
+   display: flex;
+   width: 260px;
+   height: 72px;
+   margin-top: 64px;
+}
+.black_side{
+    position: absolute;
+    height: 72px;
+    width: 204px;
+    background-color: black;
+}
+.black_side p{
+    color: white;
+    margin-top: 24px;
+    margin-left: 32px;
+
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    text-align: left;
+}
+.gold_side{
+    position: absolute;
+    height: 72px;
+    width: 56px;
+    background-color: #D5966c;
+    margin-left: 204px;
+}
+.gold_side img{
+    height: 24px;
+    width: 8px;
+    margin: 24px;
+}
+.information_photo{
+    display: flex;
+    width: 1439px;
+}
+.information h2{
+    height: 120px;
+    width: 350px;
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    margin-top: 240px;
+    margin-left: 165px;
+}
+.photo img{
+    height: 400px;
+    width: 635px;
+    margin-right: 164px;
+    margin-left: 125px;
+    margin-top: 180px; 
+}
+.information p{
+    height: 128px;
+    width: 350px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 165px;   
+}
+.photos_black_square{
+    display: flex;
+    height: 700px;
+    width: 1439px;
+}
+.firsth_ph img{
+    height: 720px;
+    width: 635px;
+    left: 165px;
+    top: 1410px;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+.second_ph img{
+    height: 313px;
+    width: 445px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.black_square{
+    height: 377px;
+    width: 445px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: black;
+}
+.black_square h1{
+    height: 120px;
+    width: 350px;
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+    padding-left: 48px;
+    padding-top: 65px;
+    padding-bottom: 32px;
+    margin: 0;
+}
+.black_square p{
+    height: 96px;
+    width: 350px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+    padding-left: 48px;
+    margin: 0;
+}
+.black_rect{
+    height: 244px;
+    width: 1440px;
+    background-color: black;
+    margin-top: 180px;
+    display: flex;
+}
+.black_rect h1{
+    height: 58px;
+    width: 200px;
+    font-family: 'Big Shoulders Display',sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    margin-left: 165px;
+    margin-top: 80px; 
+}
+.black_rect p{
+    height: 84px;
+    width: 430px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 141px;
+    margin-top: 80px;  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100px;
+    margin-left: 280px;
+    margin-top: 80px;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+ .location,
+ .gold_side:hover{
+    background-color: black;
+ }
+ svg:hover{
+    color: #D5966c;
+ }

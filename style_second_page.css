@@ -1,0 +1,160 @@
+body{
+    background-color: white;
+    position: relative;
+    font-family:'Big Shoulders Display',sans-serif;
+    margin: 0;
+}
+.container{
+    height: 1392px;
+    width: 1440px;
+    margin: 0;
+}
+.map{
+    height: 685px;
+}
+.map img{
+    width: 1440px;
+    height: 685px;
+}
+.gold_side{
+    position: absolute;
+    height: 72px;
+    width: 56px;
+    margin-left: 156px;
+    background-color: #D5966c;
+}
+.gold_side img{
+    height: 24px;
+    width: 8px;
+    margin: 24px;
+}
+.black_side{
+    position: absolute;
+    height: 72px;
+    width: 204px;
+    background-color: black;
+    margin-left: 212px;
+}
+.black_side p{
+    color: white;
+    margin-top: 24px;
+    margin-left: 32px;
+
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    text-align: left;
+}
+.black_rectangle{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    height: 550px;
+    width: 1440px;
+}
+.black_rectangle h1{
+    height: 140px;
+    width: 350px;
+
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+
+    margin-left: 165px;
+    margin-top: 104px;   
+ }
+ .information h2{
+    height: 36px;
+    width: 350px;
+
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    color: #D5966c;
+
+    margin-left: 220px;
+    margin-top: 104px;
+ }
+ .information h3{
+    height: 96px;
+    width: 445px;
+
+    font-family: 'Outfit',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+
+    margin-top: 24px;
+    margin-left: 220px;  
+ }
+ .information p{
+    height: 128px;
+    width: 540px;
+          
+    font-family: 'Outfit',sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+
+    margin-left: 220px;
+    margin-top: 32px;
+ }
+ .gold_rect{
+    height: 244px;
+    width: 1440px;
+    background-color: #D5966c;
+    display: flex;
+    margin-top: 550px;
+}
+
+.gold_rect h1{
+    height: 58px;
+    width: 200px;
+    color: black;
+
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+
+    margin-left: 165px;
+    margin-top: 80px; 
+}
+.gold_rect p{
+    height: 84px;
+    width: 430px;
+
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: black;
+
+    margin-left: 141px;
+    margin-top: 80px;  
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100px;
+
+    margin-left: 280px;
+    margin-top: 80px;
+}
+svg{
+     color : black;
+     cursor: pointer;
+}
+svg:hover{
+    color: white;
+}
