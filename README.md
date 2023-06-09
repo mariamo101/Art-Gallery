@@ -23,8 +23,9 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
    <img width="362" alt="Screenshot 2023-01-22 at 15 25 36" src="https://user-images.githubusercontent.com/117212859/213920915-5dafa739-213c-44e2-a00f-41564f8b8e57.png"/>
 
    <img width="481" alt="Screenshot 2023-02-03 at 01 38 52" src="https://user-images.githubusercontent.com/117212859/216482899-1d5c5c88-b1e7-4e54-93ae-7e8256f2bde0.png">
-
-
+### Links
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA)
+- Live Site URL: [Add live site URL here](https://art-gallery-mm.netlify.app/index.html)
 ## My process
  My process is going slowly but fruitfully. I gain new experience in the process of solving problems.
 
